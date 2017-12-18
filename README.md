@@ -23,7 +23,9 @@
 
     1- User enters their login credentials
     2- Server verifies the credentials are correct and returns a signed token
-    3- This token is stored client-side, most commonly in local storage - but can be stored in session storage or a          cookie as well
-    4- Subsequent requests to the server include this token as an additional Authorization header or through one of the other methods mentioned above
+    3- This token is stored client-side, most commonly in local storage - but can be stored in session storage
+    or acookie as well
+    4- Subsequent requests to the server include this token as an additional Authorization header or through
+    one of the other methods mentioned above
     5- The server decodes the JWT and if the token is valid processes the request
     6- Once a user logs out, the token is destroyed client-side, no interaction with the server is necessary
