@@ -1,5 +1,5 @@
 # Stateless vs stateful authentication
-- authentication used to be stateful for a long period of time. This means that the users used to input their entries. Then the server creates an id session, store it server-side
+- Authentication used to be stateful for a long period of time. This means that the users used to input their entries. Then the server creates an id session, store it server-side
 
 - All user data used to be stored server-side.
 
@@ -7,7 +7,7 @@
 
 - This used to be somewhat good because if the data is centralized, user data will less likely be fudged.
 
-- but this generated a problem for complex architecture because needing to consult the data store for every operation is troublesome. Thus, the idea of Stateless authentication emerged.
+- But this generated a problem for complex architecture because needing to consult the data store for every operation is troublesome. Thus, the idea of Stateless authentication emerged.
 
 
 ![pic1](https://cdn.auth0.com/blog/cookies-vs-tokens/cookie-token-auth.png)
