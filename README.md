@@ -4,7 +4,7 @@
 ![pic1](https://cdn.auth0.com/blog/cookies-vs-tokens/cookie-token-auth.png)
 
 
-# Cookie Based Authentication
+# Cookie/Session Based Authentication(stateful)
 
 #### Cookie based authentication has been the default, tried-and-true method for handling user authentication for a long time.
 
